@@ -1,3 +1,60 @@
 body {
   background-color: lightblue;
 }
+
+/*div formatting*/
+
+.heading {
+  background-color: black;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+
+}
+
+.intro {
+
+}
+
+.upto {
+
+}
+
+.done {
+
+}
+
+.written{
+
+}
+
+.recs {
+
+}
+
+
+/*headings and fonts*/
+
+h1 {
+  font-family: Helvetica, Sans-Serif;
+    color: #ffffff;
+}
+
+h2 {
+  font-family: Helvetica, Sans-Serif;
+    color: #ffffff;
+}
+
+h3 {
+  font-family: ;
+}
+
+h4 {
+  font-family: ;
+}
+
+h1 {
+  font-family: ;
+}
+
+
