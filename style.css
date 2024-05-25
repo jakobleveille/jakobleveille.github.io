@@ -3,6 +3,7 @@ body {
   font-family: Helvetica, Sans-Serif;
     color: #ffffff;
     font-weight: 600;
+  margin: 0
 }
 
 /*div formatting*/
@@ -16,7 +17,7 @@ body {
 }
 
 .starttext {
-  margin: 0;
+  margin: 0%;
   position: absolute;
   top: 50%;
   left: 50%;
