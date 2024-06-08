@@ -6,10 +6,19 @@ body {
     font-weight: 600;
   margin: 0;
   align-items: center;
-  align: center;
   justify-content: center;
 }
 
+#content {
+  margin: 10%;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+a {
+  color: rgb(56, 163, 212);
+}
 /* loading shit */
 
 #center {
@@ -75,7 +84,17 @@ body {
   line-height: 500%;
 }
 
+/* boxes */
 
+#intro {
+  border-radius: 25px;
+  background-color: #303030;
+  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 4px 4px #888888;
+  
+}
 
 
 /*headings and fonts*/

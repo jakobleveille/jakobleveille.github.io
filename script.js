@@ -40,4 +40,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
+// auto scroll to content
+var autoScroll = document.getElementById("content");
+
+autoScroll.scrollIntoView({
+  behavior: "smooth",
+  block: "start",
+  inline: "nearest"
+});
+
 
