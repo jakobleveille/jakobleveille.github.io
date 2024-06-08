@@ -1,7 +1,7 @@
 
 // Main title text shift
 
-var words = ["building", "making", "creating", "community"];
+var words = ["making", "creating", "community", 'learning', 'climbing'];
 var i = 0;
 var text = "learning";
 
@@ -20,7 +20,8 @@ setInterval("_changeText()", 2200);
 
 document.addEventListener('DOMContentLoaded', () => {
 
-    // Set the duration for the loader (in milliseconds)
+    // delay + duration for loader (in milliseconds)
+    
     const loaderDuration = 3000; // 3 seconds
 
     // Get references to the loader and main heading elements
@@ -36,4 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
         mainHeading.style.display = 'flex';
         contentMain.style.display = 'flex';
     }, loaderDuration);
+
 });
+
+
