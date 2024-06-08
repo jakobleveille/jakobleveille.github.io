@@ -16,4 +16,24 @@ function _changeText() {
 }
 setInterval("_changeText()", 2200);
 
-// background stuff
+// loading animation
+
+document.addEventListener('DOMContentLoaded', () => {
+
+    // Set the duration for the loader (in milliseconds)
+    const loaderDuration = 3000; // 3 seconds
+
+    // Get references to the loader and main heading elements
+    const loader = document.getElementById('loader');
+    const mainHeading = document.getElementById('heading');
+    const contentMain = document.getElementById('content');
+    const centerMain = document.getElementById('center');
+
+    // Set a timer to hide the loader and show the main heading
+    setTimeout(() => {
+        loader.style.display = 'none';
+        centerMain.style.display = 'none';
+        mainHeading.style.display = 'flex';
+        contentMain.style.display = 'flex';
+    }, loaderDuration);
+});
