@@ -1,15 +1,51 @@
+
 body {
-  background-color: rgb(0, 0, 0);
+  background: black:
   font-family: Helvetica, Sans-Serif;
     color: #ffffff;
     font-weight: 600;
-  margin: 0
+  margin: 0;
 }
+
+
+/* loading shit */
+
+.loader {
+  width: 80px;
+  aspect-ratio: 1;
+  border: 10px solid #0000;
+  box-sizing: border-box;
+  background: 
+    radial-gradient(farthest-side,#fff 98%,#0000) 0    0/20px 20px,
+    radial-gradient(farthest-side,#fff 98%,#0000) 100% 0/20px 20px,
+    radial-gradient(farthest-side,#fff 98%,#0000) 100% 100%/20px 20px,
+    radial-gradient(farthest-side,#fff 98%,#0000) 0 100%/20px 20px,
+    linear-gradient(#fff 0 0) 50%/40px 40px,
+    #000;
+  background-repeat:no-repeat;
+  filter: blur(4px) contrast(10);
+  animation: l12 0.8s infinite;
+}
+@keyframes l12 {
+  100%  {background-position:100% 0,100% 100%,0 100%,0 0,center}
+}
+
 
 /*div formatting*/
 
+#name {
+  font-family: Helvetica, Sans-Serif;
+    color: rgb(56, 163, 212);
+}
+
+.change-text {
+  font-family: Helvetica, Sans-Serif;
+    color: rgb(56, 163, 212);
+    font-style: italic;
+}
+
 .heading {
-  background-color: rgb(106, 156, 226);
+  background-color: rgb(0, 0, 0);
   text-align: center;
   height: 100%;
   width: 100%;
@@ -23,7 +59,7 @@ body {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  line-height: 130%;
+  line-height: 500%;
 }
 
 .intro {
@@ -60,17 +96,3 @@ h2 {
     color: #ffffff;
     font-size: 375%;
 }
-
-h3 {
-  font-family: ;
-}
-
-h4 {
-  font-family: ;
-}
-
-h1 {
-  font-family: ;
-}
-
-
