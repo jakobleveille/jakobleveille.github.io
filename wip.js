@@ -1,7 +1,7 @@
 
 // Main title text shift
 
-var words = ["making", "creating", "community", 'learning', 'climbing'];
+var words = ["making", "creating", "community", 'learning', 'climbing', 'reading', 'writing', 'traveling'];
 var i = 0;
 var text = "learning";
 
