@@ -14,7 +14,7 @@ function _changeText() {
     var txt = _getChangedText();
     document.getElementById("changer").innerHTML = txt;
 }
-setInterval("_changeText()", 2200);
+setInterval("_changeText()", 2000);
 
 // loading animation
 
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // delay + duration for loader (in milliseconds)
     
-    const loaderDuration = 3000; // 3 seconds
+    const loaderDuration = 2000;
 
     // Get references to the loader and main heading elements
     const loader = document.getElementById('loader');
