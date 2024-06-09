@@ -96,6 +96,20 @@ a {
   
 }
 
+/* column formatting */
+
+.row {
+  display: flex;
+  color: #fff;
+  vertical-align: bottom;
+  width: 100%;
+  padding-bottom: 1.5% ;
+}
+
+.column {
+  flex: 50%;
+}
+
 
 /*headings and fonts*/
 
