@@ -49,12 +49,11 @@ document.addEventListener("DOMContentLoaded", function() {
         "Brush Script MT, cursive",
         "Tiny5, sans-serif",
         "Workbench, sans-serif",
-        "Danfo, sans-serif",
-        "Pirata one, system-ui",
-        "Jacquard 12, system-ui",
-        "Jaro, sans-serif",
-        "Jersey 20, sans-serif",
-        "Rubik Broken Fax, sans-serif"
+        "Pirata one, sans-serif",
+        "Mynerve, cursive",
+        "Tilt Prism, sans-serif",
+        "DynaPuff, system-ui",
+        "Tapestry, serif"
     ];
 
     function getRandomFont() {
@@ -75,5 +74,4 @@ document.addEventListener("DOMContentLoaded", function() {
         element2.style.fontFamily = randomFont2;
     }
 });
-
 
