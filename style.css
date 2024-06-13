@@ -17,6 +17,9 @@ body {
 
 }
 
+a:hover {
+  color: rgb(56, 163, 212);
+}
 
 /*random font selection*/
 
@@ -92,13 +95,11 @@ body {
 /*div formatting*/
 
 #name {
-  font-family: Helvetica, Sans-Serif;
     color: rgb(56, 163, 212);
     
 }
 
 .change-text {
-  font-family: Helvetica, Sans-Serif;
     color: rgb(56, 163, 212);
     font-style: italic;
 }
@@ -147,7 +148,7 @@ body {
 
 .column {
   flex: auto;
-  width;
+  width:
 }
 
 

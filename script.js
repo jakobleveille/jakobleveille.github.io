@@ -55,8 +55,6 @@ document.addEventListener("DOMContentLoaded", function() {
         "Jaro, sans-serif",
         "Jersey 20, sans-serif",
         "Rubik Broken Fax, sans-serif"
-
-
     ];
 
     function getRandomFont() {
