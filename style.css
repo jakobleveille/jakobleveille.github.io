@@ -1,4 +1,5 @@
 
+/* general stuff */
 body {
   background: #000000;
   font-family: Helvetica, Sans-Serif;
@@ -16,10 +17,45 @@ body {
 
 }
 
-a {
+
+/*random font selection*/
+
+@font-face {
+  font-family: "Tiny5", sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+}
+
+@font-face {
+  font-family: "Workbench", sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+}
+
+@font-face {
+  font-family: "Sixtyfour", sans-serif;
+  src: ('https://fonts.googleapis.com/css2?family=Sixtyfour&family=Workbench&display=swap');
+}
+
+@font-face {
+  font-family: "Sixtyfour", sans-serif;
+  src: ('https://fonts.googleapis.com/css2?family=Sixtyfour&family=Workbench&display=swap');
+}
+
+@font-face {
+  font-family: "Oleo Script", system-ui;
+  src: url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+}
+
+@font-face {
+  font-family: "Kaushan Script", cursive;
+  src: url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oleo+Script:wght@400;700&display=swap');
+}
+
+/* all elements that have this class will use the selected font */
+#randomFont {
   color: rgb(56, 163, 212);
 }
-/* loading shit */
+
+/* loading animation */
 
 #center {
   position: fixed;
@@ -58,6 +94,7 @@ a {
 #name {
   font-family: Helvetica, Sans-Serif;
     color: rgb(56, 163, 212);
+    
 }
 
 .change-text {
@@ -98,16 +135,19 @@ a {
 
 /* column formatting */
 
-.row {
+#row {
   display: flex;
   color: #fff;
   vertical-align: bottom;
+  align-items: center;
   width: 100%;
-  padding-bottom: 1.5% ;
+  color: rgb(255, 255, 255);
 }
 
+
 .column {
-  flex: 50%;
+  flex: auto;
+  width;
 }
 
 
@@ -124,6 +164,18 @@ h2 {
     color: #ffffff;
     font-size: 375%;
 }
+
+a {
+  font-family: Helvetica, Sans-Serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#links {
+  font-family: Helvetica, Sans-Serif;
+    color: #ffffff;
+}
+
 
 /*fade in animation*/
 

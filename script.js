@@ -40,13 +40,42 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
-// auto scroll to content
-var autoScroll = document.getElementById("content");
 
-autoScroll.scrollIntoView({
-  behavior: "smooth",
-  block: "start",
-  inline: "nearest"
+// random font generation
+
+document.addEventListener("DOMContentLoaded", function() {
+    // List of fonts
+    const fonts = [
+        "Brush Script MT, cursive",
+        "Tiny5, sans-serif",
+        "Workbench, sans-serif",
+        "Danfo, sans-serif",
+        "Pirata one, system-ui",
+        "Jacquard 12, system-ui",
+        "Jaro, sans-serif",
+        "Jersey 20, sans-serif",
+        "Rubik Broken Fax, sans-serif"
+
+
+    ];
+
+    function getRandomFont() {
+        return fonts[Math.floor(Math.random() * fonts.length)];
+    }
+
+    // Select a random font for the first element
+    const randomFont1 = getRandomFont();
+    const element1 = document.getElementById("randomFont1");
+    if (element1) {
+        element1.style.fontFamily = randomFont1;
+    }
+
+    // Select a random font for the second element
+    const randomFont2 = getRandomFont();
+    const element2 = document.getElementById("randomFont2");
+    if (element2) {
+        element2.style.fontFamily = randomFont2;
+    }
 });
 
 

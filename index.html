@@ -2,6 +2,17 @@
 <head>
     <title>jakob leveille</title>
     <meta charset="utf-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Danfo&family=Jacquard+12&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Broken+Fax&display=swap');
+    </style>
     <link rel="icon" type="image/x-icon" href="favicon.png">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
@@ -21,28 +32,28 @@
         <div class = "starttext">
             <img src="pfpbig.png" width="20%" height="auto">
             <h1>
-                hi, i'm <span id = "name">jakob</span>!<br>
+                hi, i'm <span id = "name"><span id="randomFont1">jakob</span></span>!<br>
                 and i love <br>
-                <div class="change-text"><span id ="changer">learning</span></div>
+                <div id ="name">
+                    <span id="randomFont2"><span id ="changer">learning</span></span>
+                </div>
             </h1>
-        </div>
-
-        <!-- subhead pages -->
-        <div class="row">
-            <div class="column">
-                about me
-            </div>
-            <div class="column">
-                experience & projects
-            </div>
-            <div class="column">
-                resume
-            </div>
-            <div class="column">
-                contact
-            </div>
-            </div>
-        </div>
+            
+            <!-- subhead pages -->
+            <div id="row">
+                <div class="column" id ='links'>
+                    about me
+                </div>
+                <div class="column" id ='links'>
+                    experience & projects
+                </div>
+                <div class="column" id ='links'>
+                    resume
+                </div>
+                <div class="column" id ='links'>
+                    <a href="mailto:hi@jakobleveille.ca">contact</a>
+                </div>
+        </div>   
     </div>
 </div>
 
