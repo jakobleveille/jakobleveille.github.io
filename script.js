@@ -51,7 +51,6 @@ document.addEventListener("DOMContentLoaded", function() {
         "Workbench, sans-serif",
         "Pirata one, sans-serif",
         "Mynerve, cursive",
-        "Tilt Prism, sans-serif",
         "DynaPuff, system-ui",
         "Tapestry, serif"
     ];

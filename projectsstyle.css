@@ -1,0 +1,38 @@
+body {
+    background: #000000;
+    font-family: Helvetica, Sans-Serif;
+      color: #ffffff;
+      font-weight: 500;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+a:hover {
+    color: rgb(56, 163, 212);
+}
+
+a {
+    color: rgb(56, 163, 212);
+}
+
+h2{
+    color: rgb(56, 163, 212); 
+}
+
+/* Styling for rows */
+.row {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute columns evenly */
+    margin-bottom: 20px; /* Spacing between rows */
+}
+
+/* Styling for columns */
+.column {
+    flex: 1; /* Each column takes up equal space */
+    padding-right: 20px; /* Padding inside each column */
+    margin-right: 30px;
+}
