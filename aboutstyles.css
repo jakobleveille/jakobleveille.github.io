@@ -1,0 +1,16 @@
+
+body {
+    background: #000000;
+    font-family: Helvetica, Sans-Serif;
+        color: #ffffff;
+        font-weight: 600;
+    margin: 3%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(56, 163, 212);
+  }
+

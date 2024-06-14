@@ -181,11 +181,11 @@ a {
 
 #page {
 
-    -webkit-animation: fadein 5s 2.5s; /* Safari, Chrome and Opera > 12.1 */
-      -moz-animation: fadein 5s 2.5s; /* Firefox < 16 */
-        -ms-animation: fadein 5s 2.5s; /* Internet Explorer */
-        -o-animation: fadein 5s 2.5s; /* Opera < 12.1 */
-          animation: fadein 5s 2.5s;
+    -webkit-animation: fadein 5s 1.5s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 5s 1.5s; /* Firefox < 16 */
+        -ms-animation: fadein 5s 1.5s; /* Internet Explorer */
+        -o-animation: fadein 5s 1.5s; /* Opera < 12.1 */
+          animation: fadein 5s 1.5s;
   }
 
   @keyframes fadein {
