@@ -96,6 +96,7 @@ a:hover {
 
 #name {
     color: rgb(56, 163, 212);
+    font-size: 120%;
     
 }
 
@@ -174,7 +175,7 @@ a {
 #links {
   font-family: Helvetica, Sans-Serif;
     color: #ffffff;
-    font-size: 20;
+    font-size: 150%;
 }
 
 
