@@ -2,7 +2,7 @@ body {
     background: #000000;
     font-family: Helvetica, Sans-Serif;
       color: #ffffff;
-      font-weight: 500;
+      font-weight: 600;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 3%;
@@ -11,16 +11,32 @@ body {
     justify-content: center;
 }
 
+.navbar {
+    align-self: left;
+    float: center;
+}
+
 a:hover {
     color: rgb(56, 163, 212);
 }
 
 a {
-    color: rgb(56, 163, 212);
+    color: #ffffff;
 }
 
-h2{
+h1 {
     color: rgb(56, 163, 212); 
+    font-size: 400%;
+}
+
+h2 {
+    color: #ffffff; 
+    font-size: 150%;
+}
+
+p {
+    justify-content: center;
+
 }
 
 /* Styling for rows */
@@ -36,3 +52,40 @@ h2{
     padding-right: 20px; /* Padding inside each column */
     margin-right: 30px;
 }
+
+/*random font selection*/
+
+@font-face {
+    font-family: "Tiny5", sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+  }
+  
+  @font-face {
+    font-family: "Workbench", sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+  }
+  
+  @font-face {
+    font-family: "Sixtyfour", sans-serif;
+    src: ('https://fonts.googleapis.com/css2?family=Sixtyfour&family=Workbench&display=swap');
+  }
+  
+  @font-face {
+    font-family: "Sixtyfour", sans-serif;
+    src: ('https://fonts.googleapis.com/css2?family=Sixtyfour&family=Workbench&display=swap');
+  }
+  
+  @font-face {
+    font-family: "Oleo Script", system-ui;
+    src: url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+  }
+  
+  @font-face {
+    font-family: "Kaushan Script", cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oleo+Script:wght@400;700&display=swap');
+  }
+  
+  /* all elements that have this class will use the selected font */
+  #randomFont {
+    color: rgb(56, 163, 212);
+  }

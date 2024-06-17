@@ -14,12 +14,12 @@ body {
 
 .navbar {
     align-self: left;
-    float: centers;
+    float: center;
 }
 
 h1 {
     color: rgb(56, 163, 212);
-    font-size: 800%;
+    font-size: 700%;
     margin-bottom: 0%;
     margin-top: 1%;
 }
@@ -32,7 +32,7 @@ h2 {
 
 h3 {
     color: #ffffff;
-    font-size: 50;
+    font-size: 200%;
     font-weight: 800;
     font-style: italic;
 }
