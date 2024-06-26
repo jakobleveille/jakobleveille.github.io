@@ -19,14 +19,14 @@ body {
 
 h1 {
     color: rgb(56, 163, 212);
-    font-size: 700%;
+    font-size: 350%;
     margin-bottom: 0%;
     margin-top: 1%;
 }
 
 h2 {
     color: rgb(56, 163, 212);
-    font-size: 500%;
+    font-size: 350%;
     margin-bottom: -1%;
 }
 
@@ -41,13 +41,13 @@ h3 {
     color: #ffffff;
     font-weight: 400;
     margin-bottom: -4%;
-    font-size: 120%;
+    font-size: 110%;
 }
 
 p {
     color: #ffffff;
     font-weight: 400;
-    font-size: 120%;
+    font-size: 110%;
 }
 
 a {

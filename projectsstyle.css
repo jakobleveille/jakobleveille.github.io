@@ -26,17 +26,17 @@ a {
 
 h1 {
     color: rgb(56, 163, 212); 
-    font-size: 400%;
+    font-size: 350%;
 }
 
 h2 {
     color: rgb(56, 163, 212);
-    font-size: 200%;
+    font-size: 180%;
 }
 
 p {
     justify-content: center;
-    font-size: 120%;
+    font-size: 110%;
     font-weight: 400;
 
 }
