@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jakob's Homepage</title>
+    <title>jakob leveille</title>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
+
 <body>
+    <script src="script.js"></script>
     <div class="entire-page">
         <div class="container">
             <div class="main-content">
@@ -22,30 +26,108 @@
                             <li class="outlink"><a href="https://substack.com/@jakobleveille">substack</a></li>
                             <li class="outlink"><a href="https://github.com/jakobleveille">github (lol)</a></li>
                             <li class="outlink"><a href="https://www.linkedin.com/in/jakobleveille/">linkedin</a></li>
+                            <li class="outlink"><a href="mailto:hi@jakobleveille.ca">reach out!</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="text">
                     <p>and i'm extremely passionate about a shitload of different things that include (but are not limited to):</p>
-                    <div class="intro">
-                        <ul>
-                            <li class="yap-item">better understanding and appreciating the environment that surrounds us and keeps us alive</li>
-                            <li class="yap-item">fostering community & bringing like-minded people together</li>
-                            <li class="yap-item">trying & failing & trying & failing & trying again</li>
-                            <li class="yap-item">the bright horizon of tomorrow</li>
-                            <li class="yap-item">learning something from everyone i meet</li>
-                        </ul>
-                    </div>
-                        <nav>
+                    
+                    <!-- general overview section -->
+
+                    <div class="dropdown">
+                        <div class="nav-item">
+                            <span><u>things i've done</u>&nbsp;</span>
+                            <span class="arrow">→</span>
+                        </div>
+                        <div class="nav-content">
                             <ul>
-                                <li class="nav-item">about me</li>
-                                <li class="nav-item">things i live by</li>
-                                <li class="nav-item">things i've done</li>
-                                <li class="nav-item">things i'll do</li>
-                                <li class="nav-item">appreciations</li>
-                                <li class="nav-item">random idk</li>
+                                <li class="hidden">co-founded a (now sunsetted) <a href="httmps://montere.ca">modular espresso machine</a> startup</li>
+                                <li class="hidden">graduate from uw</li>
+                                <li class="hidden">worked on ai policy @ a pharma copmany, mortgage documentation @ a finance company, and sales @ a transportation company</li>
+                                <li class="hidden">finish a triathlon with 0 training</li>
+                                <li class="hidden">set boulders at my local climbing gym</li>
+                                <li class="hidden">probably some other cool stuff im forgetting about right now</li>
                             </ul>
-                        </nav>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <div class="nav-item">
+                            <span><u>things i'm currently doing</u>&nbsp;</span>
+                            <span class="arrow">→</span>
+                        </div>
+                        <div class="nav-content">
+                            <ul>
+                                <li class="hidden">creating and fostering community with <a href="https://socratica.info">socratica</a></li>
+                                <li class="hidden">building in public with <a href="https://makerscollective.co/">makers collective</a></li>
+                                <li class="hidden">better understanding our own environment with sam (coming soon)</li>
+                                <li class="hidden">creating a digital canvas with bored (coming soon)</li>
+                                <li class="hidden">(trying to) <a href="https://substack.com/@jakobleveille">write</a> once a week about things that i think are interesting, important, and/or matter to me</li>
+                                <li class="hidden">learning to code for fun</li>
+                                <li class="hidden">training for a half-ironman</li>
+                            
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <div class="nav-item">
+                            <span><u>things i'll do</u>&nbsp;</span>
+                            <span class="arrow">→</span>
+                        </div>
+                        <div class="nav-content">
+                            <ul>
+                                <li class="hidden">travel to every continent</li>
+                                <li class="hidden">a full ironman (at some point)</li>
+                                <li class="hidden">get as many tattoos as years ive been alive (currently 9/23 lol)</li>
+                                <li class="hidden"></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <div class="nav-item">
+                            <span><u>things i believe in</u>&nbsp;</span>
+                            <span class="arrow">→</span>
+                        </div>
+                        <div class="nav-content">
+                            <ul>
+                                <li class="hidden">you can learn something that will make your life better from every single person you interact with</li>
+                                <li class="hidden">failing & failing & failing & failing & failing & failing & failing & failing</li>
+                                <li class="hidden">spending at least an hour outside and making it non-negotiable - truely life-changing</li>
+                                <li class="hidden">that believing in someone and supporting their goals is one of the highest "emotional ROI activities" you can do</li>
+                                <li class="hidden">doing stupid shit is often the best way to learn</li>
+                                <li class="hidden">the comfort zone being a huge giant scam</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <div class="nav-item">
+                            <span><u>a non-complete list of small appreciations</u>&nbsp;</span>
+                            <span class="arrow">→</span>
+                        </div>
+                        <div class="nav-content">
+                            <ul>
+                                <li class="hidden">the smell and ambiance of the air after a rain</li>
+                                <li class="hidden">timing a traffic light so you dont have to slow down</li>
+                                <li class="hidden">meeting someone and realizing you are only 1 degree of separation apart</li>
+                                <li class="hidden">the color yellow</li>
+                                <li class="hidden">a shot of espresso from lucero</li>
+                                <li class="hidden">the faint glow of a neon sign though a thick fog</li>
+                                <li class="hidden">opening a book to the exact page you were on</li>
+                                <li class="hidden">a 6am walk</li>
+                                <li class="hidden">reminiscing (but not getting caught up) on the way life has changed and evolved</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <div class="nav-item">
+                            <span><u>random idk</u>&nbsp;</span>
+                            <span class="arrow">→</span>
+                        </div>
+                        <div class="nav-content">
+                            coming soon
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -58,6 +140,6 @@
             </a>
         </div>
     </div>
-    
+
 </body>
 </html>
