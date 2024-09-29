@@ -53,7 +53,7 @@ ul {
 
     .card {
       width: 100%;
-      background-color: #f4be0c;
+      background-color: #02242E;
       color: white;
       padding: 1rem;
       margin-bottom: 1rem;
@@ -62,7 +62,7 @@ ul {
       display: flex;
       padding-left: 1.5rem;
       padding-right: 1.5rem;
-      box-shadow: 0.5rem 0.5rem 0.5rem #f4e3ac
+      box-shadow: 0.5rem 0.5rem 0.5rem #9f9e9c
       ;
     }
 
@@ -132,12 +132,12 @@ ul {
     box-sizing: border-box;
     width: 102%;
     margin-bottom: 1rem;
-    background-color: #d9d8d2;
+    background-color: #02242E;
     height: 5rem;
     padding-left: 1.5rem;
     margin-top: 1rem;
     padding-right: 1.5rem;
-    box-shadow: 0.5rem 0.5rem 0.5rem #fff3d0;
+    box-shadow: 0.5rem 0.5rem 0.5rem #9f9e9c;
     font-size: 0.85rem;
   }
 
