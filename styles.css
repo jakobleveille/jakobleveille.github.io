@@ -26,6 +26,7 @@ body {
 .main-content {
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 ul {
@@ -56,13 +57,14 @@ ul {
       width: 50rem;
       background-color: #02242E;
       color: white;
-      padding: 1rem;
       margin-bottom: 1rem;
       border-radius: 0.7rem;
       align-items: center bottom;
       display: flex;
-      padding-left: 1.5rem;
-      padding-right: 1.5rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-bottom: 1rem;
+      padding-top: 1rem;
       box-shadow: 0.5rem 0.5rem 0.5rem #9f9e9c
       ;
     }
