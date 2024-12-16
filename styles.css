@@ -1,11 +1,12 @@
 body {
   font-family: 'IBM Plex Mono', monospace;
-  background-color: #e9e2d3;
-  color: black;
+  background: linear-gradient(to bottom right, #1d1f23, #373737);
+  color: #F9F9F9;
   line-height: 1.6;
   padding: 2rem;
   margin: 0;
   cursor: crosshair;
+  min-height: 100vh;
 }
 
 .entire-page {
@@ -55,7 +56,7 @@ ul {
 
     .card {
       width: 50rem;
-      background-color: #02242E;
+      background-color: #1a2b51;
       color: white;
       margin-bottom: 1rem;
       border-radius: 0.7rem;
@@ -65,8 +66,7 @@ ul {
       padding-right: 1rem;
       padding-bottom: 1rem;
       padding-top: 1rem;
-      box-shadow: 0.5rem 0.5rem 0.5rem #9f9e9c
-      ;
+      border: 1px solid #41527e;
     }
 
 /*overview stuff */
@@ -101,11 +101,11 @@ ul {
     }
     
       .nav-content a:link {
-        color: black;
+        color: #F9F9F9;
       }
       
       .nav-content a:visited {
-        color: black;
+        color: #F9F9F9;
       }
 
       .nav-content a:hover {
@@ -129,11 +129,12 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #2c7a7b;
+    background-color: #5d6474;
     padding: 1rem;
     border-radius: 0.7rem;
     color: white;
     width: 50rem;
+    border: 1px solid #b2bbd1;
   }
 
   .quote-container {
@@ -191,11 +192,11 @@ ul {
 /* link formatting */
 
   .card a:link {
-    color: white;
+    color: #F9F9F9;
   }
 
   .card a:visited {
-    color: white;
+    color: #F9F9F9;
   }
 
   .card a:active {
